@@ -9,4 +9,16 @@
 .err{
     color: rgb(248, 103, 103);
 }   
+.Verification {
+    position: relative;
+    button{
+        position: absolute;
+        right: 10px;
+        top: 2px;
+        height: 30px;
+        background-color: rgb(245, 245, 245);
+        border: none;
+        color: rgb(206, 206, 206);
+    }
+}
 }

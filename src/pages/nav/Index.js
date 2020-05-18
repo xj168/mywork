@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import { TabBar } from 'antd-mobile';
 import './Index.scss';
 import { Link } from 'react-router-dom'
+import First from './first/First'
+import Chat from './chat/Chat'
+import Pat from './pat/Pat'
+import My from './my/My'
 
 export default class TabBarExample extends React.Component {
     constructor(props) {
@@ -10,7 +14,6 @@ export default class TabBarExample extends React.Component {
             selectedTab: 'blueTab',
         };
     }
-
     render() {
         return (
             <div style={{ position: 'fixed', height: '100%', width: '100%', top: 0 }}>
@@ -46,7 +49,7 @@ export default class TabBarExample extends React.Component {
                         }}
                         data-seed="logId"
                     >
-                    <p>123</p>
+                    <First></First>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
@@ -76,6 +79,7 @@ export default class TabBarExample extends React.Component {
                         }}
                         data-seed="logId1"
                     >
+                    <Chat></Chat>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
@@ -104,6 +108,7 @@ export default class TabBarExample extends React.Component {
                             });
                         }}
                     >
+                    <Pat></Pat>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={{ uri: require('../../assets/imgs/my.png') }}
@@ -117,6 +122,7 @@ export default class TabBarExample extends React.Component {
                             });
                         }}
                     >
+                    <My></My>
                     </TabBar.Item>
                 </TabBar>
             </div>

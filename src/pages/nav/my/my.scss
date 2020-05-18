@@ -1,0 +1,54 @@
+.head{
+    background: #58c9fc;
+    color: white;
+    .head_user{
+        img{
+            width: 70px;
+        }
+        .flex2{
+            margin-top: 10px;
+            flex: 2;
+    }
+    .fo20{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    }
+    .head_nav{
+        padding-bottom: 15px;
+        div{
+            padding: 5px 0;
+        }
+        >div:nth-child(1){
+            border-right: 1px solid white;
+        }
+        >div:nth-child(2){
+            border-right: 1px solid white;
+        }
+        p{
+            margin-bottom: 10px;
+        }
+        img{
+            width: 30px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    }
+
+} 
+   .list{
+       background-color: white;
+        img{
+            width: 30px;
+            // vertical-align: middle;
+        }
+        .list_cont{
+            padding: 6px 0;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+            .flx{
+            flex: 5;
+        }
+        }
+        
+    }

@@ -1,0 +1,31 @@
+.am-tab-bar-item{
+    background: rgb(236, 236, 236);
+    .chat{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    div{
+        width: 75%;
+        // height: 40%;
+        background: white;
+        text-align: center;
+        font-size: 16px;
+        p{
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: #06c540;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        span{
+            color: #06c540;
+            font-weight: 600;
+        }
+    }
+}
+}

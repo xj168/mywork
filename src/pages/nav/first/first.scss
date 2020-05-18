@@ -1,0 +1,73 @@
+.first{
+    color: rgb(144, 144, 144);
+    background: white;
+    // position: relative;
+    .navbar{
+        position:fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%
+    }
+    .bgcor{
+        background: rgb(241, 240, 240);
+    }
+    .am-flexbox-item{
+        img{
+            width: 60px;
+        }
+        .am-wingblank-md{
+            font-size: 12px;
+        }
+        .fon14{
+            font-size: 14px;
+        }
+    }
+    .wiki{
+        font-size: 12px;
+        span{
+            color: #06c540;
+            font-size: 16px;
+            font-family: SimHei;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+    }
+    .wiki_contnt{
+        img{
+            width: 50px;
+        }
+    }
+    .list{
+        // height: 80px;
+        margin-bottom: 10px;
+        img{
+            width: 100%;
+            height: 80px;
+        }
+        .flex2{
+            flex: 2;
+            p{
+                margin-bottom: 5px;
+                span{
+                    margin-right: 5px;
+                }
+            }
+            >p:nth-child(1){
+                font-size: 22px;
+                color: rgb(58, 58, 58);
+                font-weight: 600;
+            }
+        }
+        .flex3{
+            font-size: 18px;
+            color: red;
+            font-weight: 800;
+            margin-top: 10px;
+        }
+    }
+    .bg{
+        background: white;
+    }
+}
+
